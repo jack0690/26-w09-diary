@@ -137,7 +137,6 @@ export default function App() {
         <div className="space-y-4">
           {loading ? (
             <div className="text-center py-10 text-gray-500">불러오는 중...</div>
-          EOT 다이얼로그나 카드 목록...
           ) : diaries.length === 0 ? (
             <div className="text-center py-12 bg-white rounded-xl border border-dashed border-gray-300 text-gray-500">
               작성된 감정 일기가 없습니다. 첫 기록을 남겨보세요!
